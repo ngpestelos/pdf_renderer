@@ -7,8 +7,8 @@ require "pdf_renderer/version"
 Gem::Specification.new do |s|
   s.name        = "pdf_renderer"
   s.version     = PdfRenderer::VERSION
-  s.authors     = [""]
-  s.email       = [""]
+  s.authors     = ["Nestor G Pestelos Jr"]
+  s.email       = ["ngpestelos@gmail.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of PdfRenderer."
   s.description = "TODO: Description of PdfRenderer."
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.1"
+  s.add_dependency "prawn"
 
   s.add_development_dependency "sqlite3"
 end
